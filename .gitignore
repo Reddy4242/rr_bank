@@ -1,0 +1,9 @@
+client/node_modules/
+client/dist/
+client/.npm-cache/
+server/node_modules/
+server/.npm-cache/
+server/data/*.db
+.env
+server/.env
+*.log

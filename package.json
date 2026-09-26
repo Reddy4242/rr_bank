@@ -1,0 +1,11 @@
+{
+  "name": "rr-bank",
+  "private": true,
+  "scripts": {
+    "build": "npm ci --prefix server --cache server/.npm-cache && npm ci --prefix client --cache client/.npm-cache && npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
